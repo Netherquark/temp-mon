@@ -10,7 +10,7 @@ using namespace std;
 int main()
 {
       int i = 0;
-      while (i < 1000001){
+      while (i < 1001){
         auto start = std::chrono::high_resolution_clock::now();
 
       auto stop = std::chrono::high_resolution_clock::now();
