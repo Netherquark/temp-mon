@@ -1,0 +1,6 @@
+sudo timeout 0.1s sudo tegrastats --logfile output.txt --interval 0.01		4  outputs
+sudo timeout 0.2s sudo tegrastats --logfile output.txt --interval 0.01		12 outputs
+sudo timeout 0.3s sudo tegrastats --logfile output.txt --interval 0.01		20 outputs
+sudo timeout 0.015s sudo tegrastats --logfile output.txt --interval 0.01	0 outputs, logfile not created
+sudo timeout 0.02s sudo tegrastats --logfile output.txt --interval 0.01		0 outputs, logfile created
+

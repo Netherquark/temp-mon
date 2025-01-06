@@ -1,0 +1,1 @@
+cat output.txt | awk '{print $30,$31}'
